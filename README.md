@@ -1,0 +1,2 @@
+# smallgit
+new project
