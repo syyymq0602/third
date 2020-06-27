@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML开头学习</title>
+<style type="text/css">
+h1 {color:red;}
+p {color:blue}
+thead {color:green;}
+</style>
+</head>
+<body>
+    <!--单选和复选框-->
+    <form>
+        <!--label 标签的 for 属性应当与相关元素的 id 属性相同-->
+        <input type="radio" name="sex" id="male" >
+        <label for="male">Male</label><br />
+        <input type="radio" name="sex" id="female">
+        <label for="female">Female</label><br />
+        <input type="submit" value="提交"><br />
+        <input type="checkbox" name="ll" value="bike">I have a bike.<br />
+        <input type="checkbox" name="ll" value="car">I have a car.<br />
+    </form>
+    <!--input元素可能的选项表-->
+    <form action="" method="get">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+    <!--密码框-->
+    <form action="" method="get">
+        Username:<br /> 
+        <input type="text" name="user">
+        <input type="submit" value="Submit">
+    </form>
+    <!--下拉选择菜单-->
+    <form action="">
+        <h3>下列是选择菜单</h3>
+        <select name="cars">
+            <option value="volov">Volov</option>
+            <option value="saab">Saab</option>
+            <option value="fiat" selected>Fiat</option>
+            <!--加了selected也就是改变预选值-->
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+    <br />
+    <!--文本框-->
+    <textarea row="100" cols="40">
+        我是一个文本框。
+    </textarea>
+    <!--创建自定义按钮-->
+    <form action="">
+        Email:<input type="txet" name="email"><br />
+        Password:<input type="password" name="password" maxlength=12><br />
+        <!--重置按钮设定-->
+        <input type="reset" value="重置">
+        <input type="submit" value="提交">
+        <input type="button" value="Hello world!">
+    </form>
+    <!--显示多个页面-->
+    <iframe src="http://www.baidu.com/" width="1200" height="400" frameborder="1"></iframe>
+  <h1>小杨妹妹</h1>
+  <font size="6">这是6号字体</font>
+  <br />
+  <font size="6"><small>这是6号字体</small></font>
+  <br />
+  <font size="5">这是6号字体</font>
+  <h2 style="font-family:arial;color:green;font-size:20px;text-align:center;">爱吃包子</h2>
+  <hr />
+  <!--设置背景颜色的三种方式-->
+  <p style="background-color:#AFFA99;">通过十六进制设置背景颜色</p>
+  <p style="background-color:rgb(175,250,99);">通过rgb值设置背景颜色</p>
+  <p style="background-color:yellow;">通过颜色名设置背景颜色</p>
+  <a href="#TT5">跳转到_id处</a>
+  <p style="background-color:yellow;" style="color:blue;margin-left:20px;">这是一个段落。</p>
+  <abbr title="杨沁雨杨包子小傻子">杨..</abbr>
+  <br />
+  <!--插入代码-->
+  <p id="demo">通过函数触发事件，点击按钮</p>
+  <script>
+      function myFunction()
+      {
+        x=document.getElementById("demo")
+        x.innerHTML="Hello HTML!"
+        x.style.color="#ff0000";
+      }
+  </script>
+  <button type="button" onclick="myFunction()">点我这个按钮</button>
+  <br />
+  <acronym title="World Wide Web">WWW.</acronym>
+  <em>加重</em>
+  <strong>着重</strong>
+  <br />
+  <sub><a id="TT5">杨大包子</a></sub>
+  <br />
+  <p><bdo dir="rtl">爱情不就来了吗</bdo></p>
+  <small>666鼻涕灵</small>
+  <hr />
+  <ins>定义插入字</ins>
+  <del>定义删除子</del>
+  <a href="https://www.baidu.com/s?ie=utf-8&tn=88093251_49_hao_pg&wd=html" target="_top">跳出框架</a>
+  <a href="http://www.baidu.com/" target="_parent">这是一个链接</a>
+  <br />
+  <img border="10" src="http://www.runoob.com/images/pulpit.jpg" alt="显示失败" style="float:right;" width="360" height="240">
+  <table border="2" >
+      <caption style="color:blue;">表头</caption>
+      <thead>
+      <tr>
+          <th>Header</th>
+          <th colspan="2">Telephone </th>
+      </tr>
+    </thead>   
+    <!--用thead自定义表格页眉  tbody自定义表格主体  tfoot自定义表格页脚-->
+      <tr>
+          <td>100</td>
+          <td>600</td>
+          <td>822</td>
+      </tr>
+      <tr>
+          <td style="text-align:center;">游戏啊</td>
+          <td colspan="2" align="center">熄火啦</td>
+      </tr>
+      <tr>
+          <td>这个单元格包含一个列表
+             <ul style="list-style-type:circle">
+                <!--圆点列表：disc  圆圈列表:circle  正方形列表:square-->
+                 <li style="color:red;">apples</li>
+                 <li style="color:blue;">bananas</li>
+                 <ol>
+                     <li>good</li>
+                     <li>better</li>
+                 </ol>
+                 <li>pinapples</li>
+             </ul>
+             <ol type="i"> 
+                 <li>father</li>
+                 <li>mother</li>
+                 <li>daughter</li>
+                 <!--列表项内部可以使用段落、换行符、图片、链接以及其他列表等等-->
+             </ol>
+          </td>
+          <td colspan="2">这里有一个表格
+          <table border="1" cellpadding="5" cellspacing="2">
+              <colgroup>
+                <col span="2" style="background-color:red;">
+                <col style="background-color:yellow ;">
+            </colgroup>
+              <tr>
+                  <td >cats</td>
+                  <td>water</td>
+                  <td>foot</td>
+              </tr>
+              <tr>
+                <td>dogs</td>
+                <td>eat</td>
+              </tr>
+              <tr>
+                <td>birds</td>
+                <td>stone</td>
+              </tr>
+          </table>
+          </td>
+      </tr>
+  </table>
+  <!--以下是利用div来进行页面布局-->
+  <div id="container" style="width:500px">
+    <div id="header" style="background-color:#FFA500;">
+    <h1 style="margin-bottom:0;">主要的网页标题</h1></div>
+    
+    <div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+    <b>菜单</b><br>
+    HTML<br>
+    CSS<br>
+    JavaScript</div>
+    
+    <div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+    内容在这里</div>
+    
+    <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+    版权 © runoob.com</div>  
+   </div>
+   <!--以下是用table属性来进行表格布局-->
+   <table width="500" border="0">
+    <tr>
+      <td colspan="2" style="background-color:#FFA500;">
+      <h1>主要的网页标题</h1>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color:#FFD700;width:100px;vertical-align:top;">
+      <b>菜单</b><br>
+         HTML<br>
+         CSS<br>
+         JavaScript
+      </td>
+      <td style="background-color:#eeeeee;height:200px;width:400px;vertical-align:top;text-align:center;">
+         内容在这里</td>
+    </tr> 
+    <tr>
+       <td colspan="2" style="background-color:#FFA500;text-align:center;">
+          版权 © runoob.com</td>
+    </tr>
+    </table>
+    <!--由于创建高级的布局非常耗时，使用模板是一个快速的选项。通过搜索引擎可以找到很多免费的网站模板-->
+    <!--表单-->
+    <form action="">
+        First name:<input type="text" name="firstname"><br />
+        Last name:<input type="text" name="lastname"><br />
+    </form>
+    <form action="">
+        Username:<input type="text" name="user"><br />
+        Password:<input type="password" name="password"><br />
+    </form>
+</body>
+</html>
