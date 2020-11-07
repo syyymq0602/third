@@ -7,7 +7,7 @@ namespace _2020201649gz_3
         static void Main(string[] args)
         {
             // 定义下坡距离（m）
-            Console.WriteLine("请输入下坡距离（m）：");
+            Console.WriteLine("请输入行驶距离（m）：");
             double S = Convert.ToDouble(Console.ReadLine());
             // 定义限速（km/h）
             Console.WriteLine("请输入运行时间（s）：");
