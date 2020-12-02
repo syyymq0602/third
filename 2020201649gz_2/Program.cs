@@ -41,8 +41,11 @@ namespace _2020201649gz_2
                     break;
                 }
             }
-            Console.WriteLine();
-            Console.WriteLine("限速 {0}km/h ，单一下坡距离为 {1}m 的进坡特征速度为{2:N3}km/h。", V_lim, S, V);
+            if (V >= 0)
+            {
+                Console.WriteLine();
+                Console.WriteLine("限速 {0}km/h ，单一下坡距离为 {1}m 的进坡特征速度为{2:N3}km/h。", V_lim, S, V);
+            }
         }
         public static double Locomotive(double speed)
         {

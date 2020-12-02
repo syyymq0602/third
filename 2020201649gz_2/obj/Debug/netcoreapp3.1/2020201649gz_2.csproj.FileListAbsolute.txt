@@ -11,3 +11,16 @@ C:\Users\tpl\Desktop\新建文件夹\third\2020201649gz_2\obj\Debug\netcoreapp3.
 C:\Users\tpl\Desktop\新建文件夹\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.dll
 C:\Users\tpl\Desktop\新建文件夹\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.pdb
 C:\Users\tpl\Desktop\新建文件夹\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.genruntimeconfig.cache
+E:\课件\牵引制动\Code\third\2020201649gz_2\bin\Debug\netcoreapp3.1\2020201649gz_2.exe
+E:\课件\牵引制动\Code\third\2020201649gz_2\bin\Debug\netcoreapp3.1\2020201649gz_2.deps.json
+E:\课件\牵引制动\Code\third\2020201649gz_2\bin\Debug\netcoreapp3.1\2020201649gz_2.runtimeconfig.json
+E:\课件\牵引制动\Code\third\2020201649gz_2\bin\Debug\netcoreapp3.1\2020201649gz_2.runtimeconfig.dev.json
+E:\课件\牵引制动\Code\third\2020201649gz_2\bin\Debug\netcoreapp3.1\2020201649gz_2.dll
+E:\课件\牵引制动\Code\third\2020201649gz_2\bin\Debug\netcoreapp3.1\2020201649gz_2.pdb
+E:\课件\牵引制动\Code\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.csprojAssemblyReference.cache
+E:\课件\牵引制动\Code\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.AssemblyInfoInputs.cache
+E:\课件\牵引制动\Code\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.AssemblyInfo.cs
+E:\课件\牵引制动\Code\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.csproj.CoreCompileInputs.cache
+E:\课件\牵引制动\Code\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.dll
+E:\课件\牵引制动\Code\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.pdb
+E:\课件\牵引制动\Code\third\2020201649gz_2\obj\Debug\netcoreapp3.1\2020201649gz_2.genruntimeconfig.cache

@@ -29,7 +29,7 @@ namespace _2020201649_gz
             while(X<S)
             {
                 double A = -(-SS1(V) - g) * G / 1000;
-                X = X + V / 3.6 * dt + 0.5 * A * Math.Sqrt(dt);
+                X = X + V / 3.6 * dt + 0.5 * A * Math.Sqrt(dt);  //速度单位为km/h
                 t = t + dt;
                 V = V + 3.6 * A * dt;
                 if (V<0)
@@ -38,8 +38,12 @@ namespace _2020201649_gz
                     break;
                 }
             }
-            Console.WriteLine();
-            Console.WriteLine("限速 {0}km/h ，单一下坡距离为 {1}m 的进坡特征速度为{2:N3}km/h。", V_lim, S,V);
+            if (V >= 0)
+            {
+                Console.WriteLine();
+                Console.WriteLine("限速 {0}km/h ，单一下坡距离为 {1}m 的进坡特征速度为{2:N3}km/h。", V_lim, S, V);
+            }
+
             // Console.WriteLine(t);
         }
         // 选用SS1、SS3、SS4车型计算

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tpl\\Desktop\\新建文件夹\\third\\2020201649gz_2\\2020201649gz_2.csproj": {}
+    "E:\\课件\\牵引制动\\Code\\third\\2020201649gz_2\\2020201649gz_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tpl\\Desktop\\新建文件夹\\third\\2020201649gz_2\\2020201649gz_2.csproj": {
+    "E:\\课件\\牵引制动\\Code\\third\\2020201649gz_2\\2020201649gz_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tpl\\Desktop\\新建文件夹\\third\\2020201649gz_2\\2020201649gz_2.csproj",
+        "projectUniqueName": "E:\\课件\\牵引制动\\Code\\third\\2020201649gz_2\\2020201649gz_2.csproj",
         "projectName": "2020201649gz_2",
-        "projectPath": "C:\\Users\\tpl\\Desktop\\新建文件夹\\third\\2020201649gz_2\\2020201649gz_2.csproj",
-        "packagesPath": "C:\\Users\\tpl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tpl\\Desktop\\新建文件夹\\third\\2020201649gz_2\\obj\\",
+        "projectPath": "E:\\课件\\牵引制动\\Code\\third\\2020201649gz_2\\2020201649gz_2.csproj",
+        "packagesPath": "C:\\Users\\PPG\\.nuget\\packages\\",
+        "outputPath": "E:\\课件\\牵引制动\\Code\\third\\2020201649gz_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tpl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PPG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
