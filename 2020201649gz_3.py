@@ -1,7 +1,4 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# 第三题
 
 def main():
     global g,G,a,b,c,M
@@ -67,7 +64,7 @@ def e_rv(W,X1,T):
     E2=M*G*Resistance(W)*X1
     E=E1+E2
     return E
-
+# 
 def dx(W,U):
     v0,x0,t=W,0,0
     a0=(-Resistance(v0)-g)*G/1000
@@ -79,7 +76,7 @@ def dx(W,U):
         t=t+dt
         A=(-Resistance(V)-g)*G/1000
     return X,t
-
+# 定义阻力
 def Resistance(v):
     return a + b * v + c * v * v
 
@@ -88,4 +85,3 @@ if __name__ == '__main__':
     main()
 
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
